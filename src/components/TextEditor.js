@@ -25,7 +25,7 @@ function TextEditor () {
   const [quill, setQuill] = useState()
 
   useEffect(() => {
-    const SERVER = io('http://localhost:8000')
+    const SERVER = io('https://googledocsclone.onrender.com')
     setSocket(SERVER)
     return () => {
       SERVER.disconnect()

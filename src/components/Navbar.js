@@ -10,12 +10,12 @@ function Navbar () {
   const { id } = useParams()
   const handleShare = (e) => {
     e.preventDefault()
-    setUrl(`http://localhost:3000/documents/${id}`)
+    setUrl(`https://googledocs-clone.netlify.app/documents/${id}`)
     console.log({ url, copy })
   }
   const handleNew = (e) => {
     e.preventDefault()
-    window.open('http://localhost:3000/new-document', '_blank', 'noopener,noreferrer')
+    window.open('https://googledocs-clone.netlify.app/new-document', '_blank', 'noopener,noreferrer')
   }
   return (
     <div className='navbar'>

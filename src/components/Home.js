@@ -5,7 +5,7 @@ import { useHistory } from 'react-router-dom'
 function Home () {
   const history = useHistory()
   const handleNav = () => {
-    history.push('/dashboard')
+    history.push('/new-document')
   }
   return (
     <div className='home'>
