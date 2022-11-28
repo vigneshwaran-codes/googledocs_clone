@@ -1,0 +1,16 @@
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #eee;
+    margin-bottom: 10px;
+  }
+
+h4{
+    color:#7e7e7e;
+    font-weight: 600;
+}
+.logo{
+    width: 38px;
+    height: 38px;
+}
